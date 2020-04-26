@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Final Project</string>
+    <string name="search_title">Search Page</string>
+    <string name="department_search_text">Enter Course Department Abbreviation</string>
+    <string name="course_number_search_text">Enter Course Number</string>
+    <string name="schedule_page_title">Schedule Page</string>
+    <string name="search_button_text">Search Course</string>
+    <string name="course_number_search_hint">100</string>
+    <string name="department_search_hint">ACCY</string>
+    <string name="add_course_button_text">Add Course</string>
+    <string name="your_courses_title">Your Courses</string>
+</resources>
