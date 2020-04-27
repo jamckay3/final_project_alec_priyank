@@ -15,3 +15,4 @@ public class CourseActivity extends MainActivity {
     /** name of course, ex: Introduction to Computer Science.(might be able to omit this field). */
     private String courseName;
 }
+// this comment is for commit test purposes
