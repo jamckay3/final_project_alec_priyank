@@ -19,6 +19,7 @@ public class SportsQuiz extends AppCompatActivity {
                 // Code here executes on main thread after user presses button
                 Intent intent = new Intent(SportsQuiz.this, MainActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

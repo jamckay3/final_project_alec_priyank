@@ -19,6 +19,7 @@ public class MoviesQuiz extends AppCompatActivity {
                 // Code here executes on main thread after user presses button
                 Intent intent = new Intent(MoviesQuiz.this, MainActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

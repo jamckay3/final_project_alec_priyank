@@ -19,6 +19,7 @@ public class UiucQuiz extends AppCompatActivity {
                 // Code here executes on main thread after user presses button
                 Intent intent = new Intent(UiucQuiz.this, MainActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

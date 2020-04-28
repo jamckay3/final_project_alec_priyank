@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 // Code here executes on main thread after user presses button
                 Intent intent = new Intent(MainActivity.this, MusicQuiz.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -38,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 // Code here executes on main thread after user presses button
                 Intent intent = new Intent(MainActivity.this, ScienceQuiz.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -47,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
                 // Code here executes on main thread after user presses button
                 Intent intent = new Intent(MainActivity.this, GeographyQuiz.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -56,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
                 // Code here executes on main thread after user presses button
                 Intent intent = new Intent(MainActivity.this, FoodQuiz.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -65,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
                 // Code here executes on main thread after user presses button
                 Intent intent = new Intent(MainActivity.this, UiucQuiz.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -74,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
                 // Code here executes on main thread after user presses button
                 Intent intent = new Intent(MainActivity.this, MoviesQuiz.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -83,6 +89,7 @@ public class MainActivity extends AppCompatActivity {
                 // Code here executes on main thread after user presses button
                 Intent intent = new Intent(MainActivity.this, MathQuiz.class);
                 startActivity(intent);
+                finish();
             }
         });
     }
