@@ -1,13 +1,9 @@
 package com.example.finalproject;
 
-import android.os.Bundle;
-import android.content.Intent;
-import android.view.View;
-
 import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
 
-
-public class SearchActivity extends AppCompatActivity {
+public class FoodQuiz extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

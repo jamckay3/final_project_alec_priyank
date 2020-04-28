@@ -145,7 +145,7 @@
                 android:text="@string/movies_button" />
 
             <Button
-                android:id="@+id/popCultureButton"
+                android:id="@+id/mathButton"
                 android:layout_width="wrap_content"
                 android:layout_height="138dp"
                 android:background="@drawable/home_page_button"
