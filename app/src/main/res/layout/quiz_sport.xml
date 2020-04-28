@@ -193,13 +193,13 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/sportSubmit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Submit" />
 
         <Button
-            android:id="@+id/backButton5"
+            android:id="@+id/sportBack"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Back" />
