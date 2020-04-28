@@ -19,6 +19,7 @@ public class FoodQuiz extends AppCompatActivity {
                 // Code here executes on main thread after user presses button
                 Intent intent = new Intent(FoodQuiz.this, MainActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

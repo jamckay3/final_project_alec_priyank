@@ -19,6 +19,7 @@ public class MathQuiz extends AppCompatActivity {
                 // Code here executes on main thread after user presses button
                 Intent intent = new Intent(MathQuiz.this, MainActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

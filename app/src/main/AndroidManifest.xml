@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".GeographyQuiz"></activity>
+        <activity android:name=".MusicQuiz"></activity>
+        <activity android:name=".UiucQuiz"></activity>
+        <activity android:name=".SportsQuiz"></activity>
+        <activity android:name=".ScienceQuiz"></activity>
+        <activity android:name=".MathQuiz"></activity>
+        <activity android:name=".MoviesQuiz"></activity>
+        <activity android:name=".FoodQuiz"></activity>
     </application>
 
 </manifest>
