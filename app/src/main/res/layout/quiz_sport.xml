@@ -144,7 +144,7 @@
                     android:id="@+id/radioButton24"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Yes" />
+                    android:text="To" />
 
                 <RadioButton
                     android:id="@+id/radioButton25"
