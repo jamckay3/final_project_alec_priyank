@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Final Project</string>
     <string name="home_page_title">Select a Quiz!</string>
+    <string name="sports_button">Sports</string>
+    <string name="music_button">Music</string>
+    <string name="movies_button">Movies</string>
+    <string name="math_button">Math</string>
+    <string name="uiuc_button">UIUC</string>
+    <string name="food_button">Food</string>
+    <string name="geography_button">Geography</string>
+    <string name="science_button">Science</string>
 </resources>

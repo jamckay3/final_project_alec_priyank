@@ -49,21 +49,27 @@
             android:layout_weight="0">
 
             <Button
-                android:id="@+id/button1"
+                android:id="@+id/sportsButton"
                 android:layout_width="180dp"
                 android:layout_height="138dp"
                 android:layout_marginEnd="18dp"
                 android:layout_marginRight="18dp"
                 android:layout_marginBottom="16dp"
                 android:background="@drawable/home_page_button"
-                android:text="Button" />
+                android:textSize="30sp"
+                android:textColor="#FFFFFF"
+                android:textAllCaps="false"
+                android:text="@string/sports_button" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/musicButton"
                 android:layout_width="180dp"
                 android:layout_height="138dp"
                 android:background="@drawable/home_page_button"
-                android:text="Button" />
+                android:textSize="30sp"
+                android:textColor="#FFFFFF"
+                android:textAllCaps="false"
+                android:text="@string/music_button" />
         </TableRow>
 
         <TableRow
@@ -71,21 +77,27 @@
             android:layout_height="200dp">
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/scienceButton"
                 android:layout_width="wrap_content"
                 android:layout_height="138dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginBottom="16dp"
                 android:background="@drawable/home_page_button"
-                android:text="Button" />
+                android:textSize="30sp"
+                android:textColor="#FFFFFF"
+                android:textAllCaps="false"
+                android:text="@string/science_button" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/geographyButton"
                 android:layout_width="wrap_content"
                 android:layout_height="138dp"
                 android:background="@drawable/home_page_button"
-                android:text="Button" />
+                android:textSize="30sp"
+                android:textColor="#FFFFFF"
+                android:textAllCaps="false"
+                android:text="@string/geography_button" />
         </TableRow>
 
         <TableRow
@@ -93,21 +105,27 @@
             android:layout_height="200dp">
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/foodButton"
                 android:layout_width="wrap_content"
                 android:layout_height="138dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginBottom="16dp"
                 android:background="@drawable/home_page_button"
-                android:text="Button" />
+                android:textSize="30sp"
+                android:textColor="#FFFFFF"
+                android:textAllCaps="false"
+                android:text="@string/food_button" />
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/uiucButton"
                 android:layout_width="wrap_content"
                 android:layout_height="138dp"
                 android:background="@drawable/home_page_button"
-                android:text="Button" />
+                android:textSize="30sp"
+                android:textColor="#FFFFFF"
+                android:textAllCaps="false"
+                android:text="@string/uiuc_button" />
         </TableRow>
 
         <TableRow
@@ -115,20 +133,26 @@
             android:layout_height="200dp">
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/moviesButton"
                 android:layout_width="wrap_content"
                 android:layout_height="138dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
                 android:background="@drawable/home_page_button"
-                android:text="Button" />
+                android:textSize="30sp"
+                android:textColor="#FFFFFF"
+                android:textAllCaps="false"
+                android:text="@string/movies_button" />
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/popCultureButton"
                 android:layout_width="wrap_content"
                 android:layout_height="138dp"
                 android:background="@drawable/home_page_button"
-                android:text="Button" />
+                android:text="@string/math_button"
+                android:textColor="#FFFFFF"
+                android:textAllCaps="false"
+                android:textSize="30sp" />
 
         </TableRow>
     </TableLayout>
