@@ -13,13 +13,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Science Trivia" />
+            android:text="Movie Trivia" />
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="How well do you know science?" />
+            android:text="How well do you know movies?" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -30,7 +30,7 @@
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="1. Which planet has the most moons?" />
+                android:text="1. What is the top grossing movie of all time adjusted for inflation?" />
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -40,25 +40,25 @@
                     android:id="@+id/radioButton5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Jupiter" />
+                    android:text="Avengers End Game" />
 
                 <RadioButton
                     android:id="@+id/radioButton6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Neptune" />
+                    android:text="Avatar" />
 
                 <RadioButton
                     android:id="@+id/radioButton2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Mars" />
+                    android:text="Gone with the Wind" />
 
                 <RadioButton
                     android:id="@+id/radioButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Saturn" />
+                    android:text="Titanic" />
 
             </RadioGroup>
 
@@ -73,7 +73,7 @@
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="2. What is the rarest blood type?" />
+                android:text="2. What is the top grossing movie of all time NOT adjusted for inflation?" />
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -83,25 +83,25 @@
                     android:id="@+id/radioButton9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="A+" />
+                    android:text="Avatar" />
 
                 <RadioButton
                     android:id="@+id/radioButton10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="B-" />
+                    android:text="Avengers End Game" />
 
                 <RadioButton
                     android:id="@+id/radioButton3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="AB-" />
+                    android:text="Star Wars" />
 
                 <RadioButton
                     android:id="@+id/radioButton4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="O+" />
+                    android:text="Gone with the Wind" />
 
             </RadioGroup>
         </LinearLayout>
@@ -115,7 +115,7 @@
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="3. What is the largest known animal?" />
+                android:text="3. In the Matrix, does Neo take the red pill or the blue pill?" />
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -125,25 +125,13 @@
                     android:id="@+id/radioButton17"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Horse" />
+                    android:text="Red" />
 
                 <RadioButton
                     android:id="@+id/radioButton7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Elephant" />
-
-                <RadioButton
-                    android:id="@+id/radioButton18"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Blue Whale" />
-
-                <RadioButton
-                    android:id="@+id/radioButton8"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Your Mother" />
+                    android:text="Blue" />
 
             </RadioGroup>
         </LinearLayout>
@@ -157,7 +145,7 @@
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="4. Animals the eat plant and meat are called what?" />
+                android:text="4. What was the first movie in color?" />
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -167,25 +155,25 @@
                     android:id="@+id/radioButton22"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Carnivores" />
+                    android:text="Wizard of Oz" />
 
                 <RadioButton
                     android:id="@+id/radioButton23"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Herbivores" />
+                    android:text="Cupid Angling" />
 
                 <RadioButton
                     android:id="@+id/radioButton24"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Omnivores" />
+                    android:text="The Gulf Between" />
 
                 <RadioButton
                     android:id="@+id/radioButton25"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Vegans" />
+                    android:text="The Jazz Singer" />
             </RadioGroup>
         </LinearLayout>
 
@@ -196,7 +184,7 @@
             android:text="Submit" />
 
         <Button
-            android:id="@+id/backButton"
+            android:id="@+id/backButton4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Back" />
