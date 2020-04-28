@@ -190,13 +190,13 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/uiucSubmit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Submit" />
 
         <Button
-            android:id="@+id/backButton4"
+            android:id="@+id/uiucBack"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Back" />
