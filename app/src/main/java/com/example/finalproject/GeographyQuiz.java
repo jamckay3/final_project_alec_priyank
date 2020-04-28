@@ -12,7 +12,6 @@ public class GeographyQuiz extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.quiz_geography);
-        finish();
 
         final Button backButton = findViewById(R.id.geographyBack);
         backButton.setOnClickListener(new View.OnClickListener() {
