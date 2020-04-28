@@ -23,7 +23,7 @@
                 android:textAlignment="center"
                 android:textSize="50sp"
                 android:textAllCaps="false"
-                android:textColor="#FBAF4F"/>
+                android:textColor="@color/orangeColor"/>
     </LinearLayout>
 
     <TableLayout
@@ -57,7 +57,7 @@
                 android:layout_marginBottom="16dp"
                 android:background="@drawable/home_page_button"
                 android:textSize="30sp"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/white"
                 android:textAllCaps="false"
                 android:text="@string/sports_button" />
 
@@ -67,7 +67,7 @@
                 android:layout_height="138dp"
                 android:background="@drawable/home_page_button"
                 android:textSize="30sp"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/white"
                 android:textAllCaps="false"
                 android:text="@string/music_button" />
         </TableRow>
@@ -85,7 +85,7 @@
                 android:layout_marginBottom="16dp"
                 android:background="@drawable/home_page_button"
                 android:textSize="30sp"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/white"
                 android:textAllCaps="false"
                 android:text="@string/science_button" />
 
@@ -95,7 +95,7 @@
                 android:layout_height="138dp"
                 android:background="@drawable/home_page_button"
                 android:textSize="30sp"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/white"
                 android:textAllCaps="false"
                 android:text="@string/geography_button" />
         </TableRow>
@@ -113,7 +113,7 @@
                 android:layout_marginBottom="16dp"
                 android:background="@drawable/home_page_button"
                 android:textSize="30sp"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/white"
                 android:textAllCaps="false"
                 android:text="@string/food_button" />
 
@@ -123,7 +123,7 @@
                 android:layout_height="138dp"
                 android:background="@drawable/home_page_button"
                 android:textSize="30sp"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/white"
                 android:textAllCaps="false"
                 android:text="@string/uiuc_button" />
         </TableRow>
@@ -140,7 +140,7 @@
                 android:layout_marginRight="16dp"
                 android:background="@drawable/home_page_button"
                 android:textSize="30sp"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/white"
                 android:textAllCaps="false"
                 android:text="@string/movies_button" />
 
@@ -150,7 +150,7 @@
                 android:layout_height="138dp"
                 android:background="@drawable/home_page_button"
                 android:text="@string/math_button"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/white"
                 android:textAllCaps="false"
                 android:textSize="30sp" />
 
