@@ -28,8 +28,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="@string/home_page_title"
+                    android:textStyle="bold"
                     android:textAlignment="center"
-                    android:textAllCaps="false"
+                    android:textAllCaps="true"
                     android:textColor="@color/orangeColor"
                     android:textSize="50sp" />
             </LinearLayout>
@@ -60,6 +61,7 @@
                         android:background="@drawable/home_page_button"
                         android:text="@string/sports_button"
                         android:textAllCaps="false"
+                        android:textStyle="bold"
                         android:textColor="@color/white"
                         android:textSize="30sp" />
 
@@ -70,6 +72,7 @@
                         android:background="@drawable/home_page_button"
                         android:text="@string/music_button"
                         android:textAllCaps="false"
+                        android:textStyle="bold"
                         android:textColor="@color/white"
                         android:textSize="30sp" />
                 </TableRow>
@@ -85,6 +88,7 @@
                         android:layout_marginEnd="16dp"
                         android:layout_marginRight="16dp"
                         android:layout_marginBottom="16dp"
+                        android:textStyle="bold"
                         android:background="@drawable/home_page_button"
                         android:text="@string/science_button"
                         android:textAllCaps="false"
@@ -98,6 +102,7 @@
                         android:background="@drawable/home_page_button"
                         android:text="@string/geography_button"
                         android:textAllCaps="false"
+                        android:textStyle="bold"
                         android:textColor="@color/white"
                         android:textSize="30sp" />
                 </TableRow>
@@ -115,6 +120,7 @@
                         android:layout_marginBottom="16dp"
                         android:background="@drawable/home_page_button"
                         android:text="@string/food_button"
+                        android:textStyle="bold"
                         android:textAllCaps="false"
                         android:textColor="@color/white"
                         android:textSize="30sp" />
@@ -125,6 +131,7 @@
                         android:layout_height="138dp"
                         android:background="@drawable/home_page_button"
                         android:text="@string/uiuc_button"
+                        android:textStyle="bold"
                         android:textAllCaps="false"
                         android:textColor="@color/white"
                         android:textSize="30sp" />
@@ -142,6 +149,7 @@
                         android:layout_marginRight="16dp"
                         android:background="@drawable/home_page_button"
                         android:text="@string/movies_button"
+                        android:textStyle="bold"
                         android:textAllCaps="false"
                         android:textColor="@color/white"
                         android:textSize="30sp" />
@@ -153,6 +161,7 @@
                         android:background="@drawable/home_page_button"
                         android:text="@string/math_button"
                         android:textAllCaps="false"
+                        android:textStyle="bold"
                         android:textColor="@color/white"
                         android:textSize="30sp" />
 
