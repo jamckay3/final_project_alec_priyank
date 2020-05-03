@@ -39,29 +39,30 @@
                     android:text="1. Who is one of the mathematicians credited with inventing Calculus?" />
 
                 <RadioGroup
+                    android:id="@+id/mathQ1RadioGroup"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
                     <RadioButton
-                        android:id="@+id/radioButton5"
+                        android:id="@+id/mathQ1Wrong1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Leonhard Euler" />
 
                     <RadioButton
-                        android:id="@+id/radioButton6"
+                        android:id="@+id/mathQ1Correct"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Gottfried Leibniz" />
 
                     <RadioButton
-                        android:id="@+id/radioButton2"
+                        android:id="@+id/mathQ1Wrong2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Carl Gauss" />
 
                     <RadioButton
-                        android:id="@+id/radioButton"
+                        android:id="@+id/mathQ1Wrong3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Rene Descartes" />
@@ -82,29 +83,30 @@
                     android:text="2. Who is considered the Godfather of Real Analysis?" />
 
                 <RadioGroup
+                    android:id="@+id/mathQ2RadioGroup"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
                     <RadioButton
-                        android:id="@+id/radioButton9"
+                        android:id="@+id/mathQ2Wrong1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Isaac Newton" />
 
                     <RadioButton
-                        android:id="@+id/radioButton10"
+                        android:id="@+id/mathQ2Correct"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Karl Weierstrass" />
 
                     <RadioButton
-                        android:id="@+id/radioButton3"
+                        android:id="@+id/mathQ2Wrong2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Srinivasa Ramanujan" />
 
                     <RadioButton
-                        android:id="@+id/radioButton4"
+                        android:id="@+id/mathQ2Wrong3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Pierre de Fermat" />
@@ -124,29 +126,30 @@
                     android:text="3. When did mathematicians start using plus and minus signs?" />
 
                 <RadioGroup
+                    android:id="@+id/mathQ3RadioGroup"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <RadioButton
-                        android:id="@+id/radioButton17"
+                        android:id="@+id/mathQ3Wrong1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="14th Century" />
 
                     <RadioButton
-                        android:id="@+id/radioButton7"
+                        android:id="@+id/mathQ3Wrong2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="15th Century" />
 
                     <RadioButton
-                        android:id="@+id/radioButton18"
+                        android:id="@+id/mathQ3Correct"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="16th Century" />
 
                     <RadioButton
-                        android:id="@+id/radioButton8"
+                        android:id="@+id/mathQ3Wrong3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="17th Century" />
@@ -166,29 +169,30 @@
                     android:text="4. Who discovered the quartic formula" />
 
                 <RadioGroup
+                    android:id="@+id/mathQ4RadioGroup"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
                     <RadioButton
-                        android:id="@+id/radioButton22"
+                        android:id="@+id/mathQ4Wrong1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Gerolamo Cardano" />
 
                     <RadioButton
-                        android:id="@+id/radioButton23"
+                        android:id="@+id/mathQ4Correct"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Ludovico Ferrari" />
 
                     <RadioButton
-                        android:id="@+id/radioButton24"
+                        android:id="@+id/mathQ4Wrong2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Blaise Pascal" />
 
                     <RadioButton
-                        android:id="@+id/radioButton25"
+                        android:id="@+id/mathQ4Wrong3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Bernhard Riemann" />

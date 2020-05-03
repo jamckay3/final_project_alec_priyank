@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="81dp">
+
+        <TextView
+            android:id="@+id/currentQuizText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ahhh" />
+
+        <TextView
+            android:id="@+id/resString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Quiz Results!" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="207dp">
+
+        <TextView
+            android:id="@+id/yourScoreString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Score: " />
+
+        <TextView
+            android:id="@+id/quizScoreText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" / 4" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/homePageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Return to Home Page" />
+</LinearLayout>

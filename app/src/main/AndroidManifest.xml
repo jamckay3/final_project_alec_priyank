@@ -24,6 +24,7 @@
         <activity android:name=".MathQuiz"></activity>
         <activity android:name=".MoviesQuiz"></activity>
         <activity android:name=".FoodQuiz"></activity>
+        <activity android:name=".QuizScore" />
     </application>
 
 </manifest>

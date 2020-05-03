@@ -43,7 +43,7 @@
                     android:layout_height="wrap_content">
 
                     <RadioButton
-                        android:id="@+id/radioButton5"
+                        android:id="@+id/uiucQ1RadioButton"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Africa" />
@@ -55,7 +55,7 @@
                         android:text="Asia" />
 
                     <RadioButton
-                        android:id="@+id/radioButton2"
+                        android:id="@+id/foodQ1RadioButton"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Australia" />
@@ -92,7 +92,7 @@
                         android:text="Alaska" />
 
                     <RadioButton
-                        android:id="@+id/radioButton10"
+                        android:id="@+id/uiucQ2RadioButton"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="California" />
@@ -104,7 +104,7 @@
                         android:text="Florida" />
 
                     <RadioButton
-                        android:id="@+id/radioButton4"
+                        android:id="@+id/sportQ2RadioButton"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Texas" />
@@ -134,13 +134,13 @@
                         android:text="England" />
 
                     <RadioButton
-                        android:id="@+id/radioButton7"
+                        android:id="@+id/sportQ4RadioButton"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="France" />
 
                     <RadioButton
-                        android:id="@+id/radioButton18"
+                        android:id="@+id/uiucQ1RadioButton"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Germany" />
@@ -170,19 +170,19 @@
                     android:layout_height="wrap_content">
 
                     <RadioButton
-                        android:id="@+id/radioButton22"
+                        android:id="@+id/sportQ1RadioButton"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Hong Kong" />
 
                     <RadioButton
-                        android:id="@+id/radioButton23"
+                        android:id="@+id/radioButton900"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="New York" />
 
                     <RadioButton
-                        android:id="@+id/radioButton24"
+                        android:id="@+id/uiucQ4RadioButton"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Delhi" />

@@ -38,30 +38,30 @@
                     android:text="1. According to the official FIFA rulebook, how long can a goalkeeper hold the ball?" />
 
                 <RadioGroup
+                    android:id="@+id/sportQ1RadioGroup"
                     android:layout_width="match_parent"
                     android:layout_height="142dp">
 
                     <RadioButton
-                        android:id="@+id/radioButton22"
+                        android:id="@+id/sportQ1Correct"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="6 seconds" />
 
                     <RadioButton
-                        android:id="@+id/radioButton23"
+                        android:id="@+id/sportQ1Wrong1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="8 seconds" />
 
                     <RadioButton
-                        android:id="@+id/radioButton24"
+                        android:id="@+id/sportQ1Wrong2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="10 seconds"
-                        android:visibility="visible" />
+                        android:text="10 seconds" />
 
                     <RadioButton
-                        android:id="@+id/radioButton25"
+                        android:id="@+id/sportQ1Wrong3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="12 seconds" />
@@ -80,29 +80,30 @@
                     android:text="2. Who is the most succesful athlete to ever compete in the Olympics (by medals)?" />
 
                 <RadioGroup
+                    android:id="@+id/sportQ2RadioGroup"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
                     <RadioButton
-                        android:id="@+id/radioButton9"
+                        android:id="@+id/sportQ2Wrong1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Usain Bolt" />
 
                     <RadioButton
-                        android:id="@+id/radioButton10"
+                        android:id="@+id/sportQ2Wrong2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Paavo Nurmi" />
 
                     <RadioButton
-                        android:id="@+id/radioButton3"
+                        android:id="@+id/sportQ2Wrong3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Mark Spitz" />
 
                     <RadioButton
-                        android:id="@+id/radioButton4"
+                        android:id="@+id/sportQ2Correct"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Michael Phelps" />
@@ -122,29 +123,30 @@
                     android:text="3. How heavy is a baseball?" />
 
                 <RadioGroup
+                    android:id="@+id/sportQ3RadioGroup"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
                     <RadioButton
-                        android:id="@+id/radioButton5"
+                        android:id="@+id/sportQ3Correct"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="145g" />
 
                     <RadioButton
-                        android:id="@+id/radioButton6"
+                        android:id="@+id/sportQ3Wrong1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="200g" />
 
                     <RadioButton
-                        android:id="@+id/radioButton2"
+                        android:id="@+id/sportQ3Wrong2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="400g" />
 
                     <RadioButton
-                        android:id="@+id/radioButton"
+                        android:id="@+id/sportQ3Wrong3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="50g" />
@@ -165,29 +167,30 @@
                     android:text="4. Who was the first player in NBA history to be elected league MVP by a unanimous vote?" />
 
                 <RadioGroup
+                    android:id="@+id/sportQ4RadioGroup"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <RadioButton
-                        android:id="@+id/radioButton17"
+                        android:id="@+id/sportQ4Wrong1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Kareem Abdul-Jabbar" />
 
                     <RadioButton
-                        android:id="@+id/radioButton7"
+                        android:id="@+id/sportQ4Correct"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Stephen Curry" />
 
                     <RadioButton
-                        android:id="@+id/radioButton18"
+                        android:id="@+id/sportQ4Wrong2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Lebron James" />
 
                     <RadioButton
-                        android:id="@+id/radioButton8"
+                        android:id="@+id/sportQ4Wrong3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Michael Jordan" />

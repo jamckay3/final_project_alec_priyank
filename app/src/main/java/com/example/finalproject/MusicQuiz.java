@@ -4,10 +4,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RadioGroup;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MusicQuiz extends AppCompatActivity {
+    RadioGroup q1RadioGroup;
+    RadioGroup q2RadioGroup;
+    RadioGroup q3RadioGroup;
+    RadioGroup q4RadioGroup;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,5 +27,7 @@ public class MusicQuiz extends AppCompatActivity {
                 finish();
             }
         });
+
+
     }
 }

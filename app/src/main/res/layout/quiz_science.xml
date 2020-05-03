@@ -39,29 +39,30 @@
                     android:text="1. Which planet has the most moons?" />
 
                 <RadioGroup
+                    android:id="@+id/scienceQ1RadioGroup"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
                     <RadioButton
-                        android:id="@+id/radioButton5"
+                        android:id="@+id/scienceQ1Correct"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Jupiter" />
 
                     <RadioButton
-                        android:id="@+id/radioButton6"
+                        android:id="@+id/scienceQ1Wrong1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Neptune" />
 
                     <RadioButton
-                        android:id="@+id/radioButton2"
+                        android:id="@+id/scienceQ1Wrong2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Mars" />
 
                     <RadioButton
-                        android:id="@+id/radioButton"
+                        android:id="@+id/scienceQ1Wrong3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Saturn" />
@@ -82,29 +83,30 @@
                     android:text="2. What is the rarest blood type?" />
 
                 <RadioGroup
+                    android:id="@+id/scienceQ2RadioGroup"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
                     <RadioButton
-                        android:id="@+id/radioButton9"
+                        android:id="@+id/scienceQ2Wrong1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="A+" />
 
                     <RadioButton
-                        android:id="@+id/radioButton10"
+                        android:id="@+id/scienceQ2Wrong2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="B-" />
 
                     <RadioButton
-                        android:id="@+id/radioButton3"
+                        android:id="@+id/scienceQ2Correct"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="AB-" />
 
                     <RadioButton
-                        android:id="@+id/radioButton4"
+                        android:id="@+id/scienceQ2Wrong3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="O+" />
@@ -124,29 +126,30 @@
                     android:text="3. What is the largest known animal?" />
 
                 <RadioGroup
+                    android:id="@+id/scienceQ3RadioGroup"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <RadioButton
-                        android:id="@+id/radioButton17"
+                        android:id="@+id/scienceQ3Wrong1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Horse" />
 
                     <RadioButton
-                        android:id="@+id/radioButton7"
+                        android:id="@+id/scienceQ3Wrong2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Elephant" />
 
                     <RadioButton
-                        android:id="@+id/radioButton18"
+                        android:id="@+id/scienceQ3Correct"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Blue Whale" />
 
                     <RadioButton
-                        android:id="@+id/radioButton8"
+                        android:id="@+id/scienceQ3Wrong3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Your Mother" />
@@ -166,29 +169,30 @@
                     android:text="4. Animals the eat plant and meat are called what?" />
 
                 <RadioGroup
+                    android:id="@+id/scienceQ4RadioGroup"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
                     <RadioButton
-                        android:id="@+id/radioButton22"
+                        android:id="@+id/scienceQ4Wrong1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Carnivores" />
 
                     <RadioButton
-                        android:id="@+id/radioButton23"
+                        android:id="@+id/scienceQ4Wrong2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Herbivores" />
 
                     <RadioButton
-                        android:id="@+id/radioButton24"
+                        android:id="@+id/scienceQ4Correct"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Omnivores" />
 
                     <RadioButton
-                        android:id="@+id/radioButton25"
+                        android:id="@+id/scienceQ4Wrong3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Vegans" />

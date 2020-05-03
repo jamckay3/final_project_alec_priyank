@@ -39,29 +39,30 @@
                     android:text="1. What is the largest continent by land?" />
 
                 <RadioGroup
+                    android:id="@+id/geographyQ1RadioGroup"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
                     <RadioButton
-                        android:id="@+id/radioButton5"
+                        android:id="@+id/geographyQ1Wrong1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Africa" />
 
                     <RadioButton
-                        android:id="@+id/radioButton6"
+                        android:id="@+id/geographyQ1Correct"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Asia" />
 
                     <RadioButton
-                        android:id="@+id/radioButton2"
+                        android:id="@+id/geographyQ1Wrong2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Australia" />
 
                     <RadioButton
-                        android:id="@+id/radioButton"
+                        android:id="@+id/geographyQ1Wrong3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Antarctica" />
@@ -82,29 +83,30 @@
                     android:text="2. What is the largest state in the USA by land?" />
 
                 <RadioGroup
+                    android:id="@+id/geographyQ2RadioGroup"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
                     <RadioButton
-                        android:id="@+id/radioButton9"
+                        android:id="@+id/geographyQ2Correct"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Alaska" />
 
                     <RadioButton
-                        android:id="@+id/radioButton10"
+                        android:id="@+id/geographyQ2Wrong1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="California" />
 
                     <RadioButton
-                        android:id="@+id/radioButton3"
+                        android:id="@+id/geographyQ2Wrong2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Florida" />
 
                     <RadioButton
-                        android:id="@+id/radioButton4"
+                        android:id="@+id/geographyQ2Wrong3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Texas" />
@@ -124,29 +126,30 @@
                     android:text="3. Which country in the European Union has the biggest population?" />
 
                 <RadioGroup
+                    android:id="@+id/geographyQ3RadioGroup"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <RadioButton
-                        android:id="@+id/radioButton17"
+                        android:id="@+id/geographyQ3Wrong1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="England" />
+                        android:text="Spain" />
 
                     <RadioButton
-                        android:id="@+id/radioButton7"
+                        android:id="@+id/geographyQ3Wrong2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="France" />
 
                     <RadioButton
-                        android:id="@+id/radioButton18"
+                        android:id="@+id/geographyQ3Correct"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Germany" />
 
                     <RadioButton
-                        android:id="@+id/radioButton8"
+                        android:id="@+id/geographyQ3Wrong3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Italy" />
@@ -166,29 +169,30 @@
                     android:text="4. Which city has the biggest population?" />
 
                 <RadioGroup
+                    android:id="@+id/geographyQ4RadioGroup"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
                     <RadioButton
-                        android:id="@+id/radioButton22"
+                        android:id="@+id/geographyQ4Wrong1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Hong Kong" />
 
                     <RadioButton
-                        android:id="@+id/radioButton23"
+                        android:id="@+id/geographyQ4Wrong2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="New York" />
 
                     <RadioButton
-                        android:id="@+id/radioButton24"
+                        android:id="@+id/geographyQ4Wrong3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Delhi" />
 
                     <RadioButton
-                        android:id="@+id/radioButton25"
+                        android:id="@+id/geographyQ4Correct"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Tokyo" />
