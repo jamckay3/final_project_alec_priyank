@@ -169,6 +169,7 @@
                     android:text="4. According to US News, what is UIUC's National Overall Ranking?" />
 
                 <RadioGroup
+                    android:id="@+id/uiucQ4RadioGroup"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
