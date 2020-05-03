@@ -5,4 +5,6 @@
     <color name="colorAccent">#D81B60</color>
     <color name="orangeColor">#F08080</color>
     <color name="white">#FFFFFF</color>
+    <color name="background_black">#323232</color>
+    <color name="offWhite">#CCCCCC</color>
 </resources>

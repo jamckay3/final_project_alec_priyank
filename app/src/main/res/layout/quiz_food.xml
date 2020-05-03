@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/quiz_background">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -13,30 +14,48 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="46dp">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Food Trivia" />
+                android:text="Food Trivia!"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="@color/orangeColor"
+                android:textSize="40sp" />
 
             <TextView
                 android:id="@+id/textView2"
+                android:text="How well do you know food?"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="How well do you know food?" />
+                android:layout_height="55dp"
+                android:textColor="@color/orangeColor"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textSize="23sp"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="230dp"
                 android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/textView3"
+                    android:text="1. What is the most common food \n allergy?"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="1. What is the most common food allergy?" />
+                    android:layout_height="45dp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
 
                 <RadioGroup
                     android:id="@+id/foodQ1RadioGroup"
@@ -45,27 +64,43 @@
 
                     <RadioButton
                         android:id="@+id/foodQ1Wrong1"
+                        android:text="Milk"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Milk" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
 
                     <RadioButton
                         android:id="@+id/foodQ1Wrong2"
+                        android:text="Shellfish"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Shellfish" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
 
                     <RadioButton
                         android:id="@+id/foodQ1Correct"
+                        android:text="Peanuts"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Peanuts" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
 
                     <RadioButton
                         android:id="@+id/foodQ1Wrong3"
+                        android:text="Soy"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Soy" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
 
                 </RadioGroup>
 
@@ -73,14 +108,20 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="230dp"
+                android:paddingTop="10dp"
                 android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/textView4"
+                    android:text="2. What is the national food of Mexico?"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="2. What is the national food of Mexico" />
+                    android:layout_height="35dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
 
                 <RadioGroup
                     android:id="@+id/foodQ2RadioGroup"
@@ -89,41 +130,63 @@
 
                     <RadioButton
                         android:id="@+id/foodQ2Wrong1"
+                        android:text="Taco"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Taco" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
 
                     <RadioButton
                         android:id="@+id/foodQ2Wrong2"
+                        android:text="Fajita"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Fajita" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
 
                     <RadioButton
                         android:id="@+id/foodQ2Correct"
+                        android:text="Mole"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Mole" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
 
                     <RadioButton
                         android:id="@+id/foodQ2Wrong3"
+                        android:text="Tamale"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Tamale" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
 
                 </RadioGroup>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="230dp"
+                android:paddingTop="10dp"
                 android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/textView6"
+                    android:text="3. What is the national food of France?"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="3. What is the national food of France" />
+                    android:layout_height="35dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
 
                 <RadioGroup
                     android:id="@+id/foodQ3RadioGroup"
@@ -132,41 +195,63 @@
 
                     <RadioButton
                         android:id="@+id/foodQ3Wrong1"
+                        android:text="Baguette"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Baguette" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
 
                     <RadioButton
                         android:id="@+id/foodQ3Wrong2"
+                        android:text="White flags"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="White flags" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
 
                     <RadioButton
                         android:id="@+id/foodQ3Correct"
+                        android:text="Pot-au-Feu"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Pot-au-Feu" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
 
                     <RadioButton
                         android:id="@+id/foodQ3Wrong3"
+                        android:text="Croissant"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Croissant" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
 
                 </RadioGroup>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="250dp"
+                android:paddingTop="10dp"
                 android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/textView7"
+                    android:text="4. What is the only US state that grows coffee beans?"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="4. What is the only US state that grows coffee beans?" />
+                    android:textStyle="bold"
+                    android:layout_height="50dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
 
                 <RadioGroup
                     android:id="@+id/foodQ4RadioGroup"
@@ -175,45 +260,71 @@
 
                     <RadioButton
                         android:id="@+id/foodQ4Wrong1"
+                        android:text="Louisiana"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Louisiana" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
 
                     <RadioButton
                         android:id="@+id/foodQ4Correct"
+                        android:text="Hawaii"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Hawaii" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
 
                     <RadioButton
                         android:id="@+id/foodQ4Wrong2"
+                        android:text="Idaho"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Idaho" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
 
                     <RadioButton
                         android:id="@+id/foodQ4Wrong3"
+                        android:text="Wyoming"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Wyoming" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
                 </RadioGroup>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
+                android:layout_height="130dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="15dp"
                 android:orientation="vertical">
 
                 <Button
                     android:id="@+id/foodSubmit"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:backgroundTint="@color/orangeColor"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
                     android:text="Submit" />
 
                 <Button
                     android:id="@+id/foodBack"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:backgroundTint="@color/orangeColor"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
                     android:text="Back" />
             </LinearLayout>
 
