@@ -6,155 +6,158 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="84dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginEnd="16dp"
-        android:orientation="vertical"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/home_page_title"
-            android:textAlignment="center"
-            android:textAllCaps="false"
-            android:textColor="@color/orangeColor"
-            android:textSize="50sp" />
-    </LinearLayout>
-
-    <TableLayout
-        android:id="@+id/tableLayout"
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="114dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintTop_toTopOf="parent">
 
-        <TableRow
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_weight="0">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-            <Button
-                android:id="@+id/sportsButton"
-                android:layout_width="180dp"
-                android:layout_height="138dp"
-                android:layout_marginEnd="18dp"
-                android:layout_marginRight="18dp"
-                android:layout_marginBottom="16dp"
-                android:background="@drawable/home_page_button"
-                android:textSize="30sp"
-                android:textColor="@color/white"
-                android:textAllCaps="false"
-                android:text="@string/sports_button" />
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="84dp"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical">
 
-            <Button
-                android:id="@+id/musicButton"
-                android:layout_width="180dp"
-                android:layout_height="138dp"
-                android:background="@drawable/home_page_button"
-                android:textSize="30sp"
-                android:textColor="@color/white"
-                android:textAllCaps="false"
-                android:text="@string/music_button" />
-        </TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/home_page_title"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/orangeColor"
+                    android:textSize="50sp" />
+            </LinearLayout>
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="200dp">
-
-            <Button
-                android:id="@+id/scienceButton"
-                android:layout_width="wrap_content"
-                android:layout_height="138dp"
+            <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
-                android:layout_marginBottom="16dp"
-                android:background="@drawable/home_page_button"
-                android:textSize="30sp"
-                android:textColor="@color/white"
-                android:textAllCaps="false"
-                android:text="@string/science_button" />
+                android:layout_marginBottom="16dp">
 
-            <Button
-                android:id="@+id/geographyButton"
-                android:layout_width="wrap_content"
-                android:layout_height="138dp"
-                android:background="@drawable/home_page_button"
-                android:textSize="30sp"
-                android:textColor="@color/white"
-                android:textAllCaps="false"
-                android:text="@string/geography_button" />
-        </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_weight="0">
 
-        <TableRow
-            android:layout_width="wrap_content"
-            android:layout_height="200dp">
+                    <Button
+                        android:id="@+id/sportsButton"
+                        android:layout_width="180dp"
+                        android:layout_height="138dp"
+                        android:layout_marginEnd="18dp"
+                        android:layout_marginRight="18dp"
+                        android:layout_marginBottom="16dp"
+                        android:background="@drawable/home_page_button"
+                        android:text="@string/sports_button"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="30sp" />
 
-            <Button
-                android:id="@+id/foodButton"
-                android:layout_width="wrap_content"
-                android:layout_height="138dp"
-                android:layout_marginEnd="16dp"
-                android:layout_marginRight="16dp"
-                android:layout_marginBottom="16dp"
-                android:background="@drawable/home_page_button"
-                android:textSize="30sp"
-                android:textColor="@color/white"
-                android:textAllCaps="false"
-                android:text="@string/food_button" />
+                    <Button
+                        android:id="@+id/musicButton"
+                        android:layout_width="180dp"
+                        android:layout_height="138dp"
+                        android:background="@drawable/home_page_button"
+                        android:text="@string/music_button"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="30sp" />
+                </TableRow>
 
-            <Button
-                android:id="@+id/uiucButton"
-                android:layout_width="wrap_content"
-                android:layout_height="138dp"
-                android:background="@drawable/home_page_button"
-                android:textSize="30sp"
-                android:textColor="@color/white"
-                android:textAllCaps="false"
-                android:text="@string/uiuc_button" />
-        </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp">
 
-        <TableRow
-            android:layout_width="wrap_content"
-            android:layout_height="200dp">
+                    <Button
+                        android:id="@+id/scienceButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="138dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:background="@drawable/home_page_button"
+                        android:text="@string/science_button"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="30sp" />
 
-            <Button
-                android:id="@+id/moviesButton"
-                android:layout_width="wrap_content"
-                android:layout_height="138dp"
-                android:layout_marginEnd="16dp"
-                android:layout_marginRight="16dp"
-                android:background="@drawable/home_page_button"
-                android:textSize="30sp"
-                android:textColor="@color/white"
-                android:textAllCaps="false"
-                android:text="@string/movies_button" />
+                    <Button
+                        android:id="@+id/geographyButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="138dp"
+                        android:background="@drawable/home_page_button"
+                        android:text="@string/geography_button"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="30sp" />
+                </TableRow>
 
-            <Button
-                android:id="@+id/mathButton"
-                android:layout_width="wrap_content"
-                android:layout_height="138dp"
-                android:background="@drawable/home_page_button"
-                android:text="@string/math_button"
-                android:textColor="@color/white"
-                android:textAllCaps="false"
-                android:textSize="30sp" />
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp">
 
-        </TableRow>
-    </TableLayout>
+                    <Button
+                        android:id="@+id/foodButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="138dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:background="@drawable/home_page_button"
+                        android:text="@string/food_button"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="30sp" />
+
+                    <Button
+                        android:id="@+id/uiucButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="138dp"
+                        android:background="@drawable/home_page_button"
+                        android:text="@string/uiuc_button"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="30sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp">
+
+                    <Button
+                        android:id="@+id/moviesButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="138dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginRight="16dp"
+                        android:background="@drawable/home_page_button"
+                        android:text="@string/movies_button"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="30sp" />
+
+                    <Button
+                        android:id="@+id/mathButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="138dp"
+                        android:background="@drawable/home_page_button"
+                        android:text="@string/math_button"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="30sp" />
+
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
