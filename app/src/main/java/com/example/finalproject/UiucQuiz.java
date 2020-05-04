@@ -13,6 +13,7 @@ public class UiucQuiz extends AppCompatActivity {
     RadioGroup q2RadioGroup;
     RadioGroup q3RadioGroup;
     RadioGroup q4RadioGroup;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
