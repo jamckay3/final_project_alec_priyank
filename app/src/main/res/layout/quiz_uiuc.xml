@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/quiz_background">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -11,32 +12,48 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="46dp">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="UIUC Trivia" />
+                android:text="UIUC Trivia!"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="@color/orangeColor"
+                android:textSize="45sp"/>
 
             <TextView
-                android:id="@+id/textView2"
+                android:text="Are you really an ILLINI?"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="How well do you know UIUC?" />
+                android:layout_height="45dp"
+                android:textColor="@color/orangeColor"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textSize="23sp"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="235dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:text="1. What is the oldest building on Campus?"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="1. What is the oldest building on campus?" />
+                    android:layout_height="35dp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
 
                 <RadioGroup
                     android:id="@+id/uiucQ1RadioGroup"
@@ -45,27 +62,55 @@
 
                     <RadioButton
                         android:id="@+id/uiucQ1Correct"
+                        android:text="Altgeld Hall"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Altgeld Hall" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/uiucQ1Wrong1"
+                        android:text="Illini Union"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Union" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/uiucQ1Wrong2"
+                        android:text="Armory"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Armory" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/uiucQ1Wrong3"
+                        android:text="Gregory Hall"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Gregory Hall" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
 
                 </RadioGroup>
 
@@ -73,14 +118,19 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="245dp"
+                android:paddingTop="10dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView4"
+                    android:text="2. Who founded UIUC?"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="2. Who founded UIUC?" />
+                    android:layout_height="35dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
 
                 <RadioGroup
                     android:id="@+id/uiucQ2RadioGroup"
@@ -89,41 +139,74 @@
 
                     <RadioButton
                         android:id="@+id/uiucQ2Wrong1"
+                        android:text="David Kinley"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="David Kinley" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/uiucQ2Correct"
+                        android:text="John Gregory"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="John Gregory" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/uiucQ2Wrong2"
+                        android:text="Arthur Hill"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Arthur Hill" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/uiucQ2Wrong3"
+                        android:text="Thomas Burrill"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Thomas Burrill" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
 
                 </RadioGroup>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="245dp"
+                android:paddingTop="10dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView6"
+                    android:text="3. What is the most popular major at UIUC?"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="3. What is the most popular major at UIUC?" />
+                    android:layout_height="35dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
 
                 <RadioGroup
                     android:id="@+id/uiucQ3RadioGroup"
@@ -132,41 +215,74 @@
 
                     <RadioButton
                         android:id="@+id/uiucQ3Wrong1"
+                        android:text="Communication and Media Studies"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Communication and Media Studies" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/uiucQ3Wrong2"
+                        android:text="Economics"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Economics" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/uiucQ3Wrong3"
+                        android:text="Electrical Engineering"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Accounting and Related Services" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/uiucQ3Correct"
+                        android:text="Psychology"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Psychology" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
 
                 </RadioGroup>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="260dp"
+                android:paddingTop="10dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView7"
+                    android:text="4. What is UIUC Computer Science ranked according to US News?"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="4. According to US News, what is UIUC's National Overall Ranking?" />
+                    android:textStyle="bold"
+                    android:layout_height="50dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
 
                 <RadioGroup
                     android:id="@+id/uiucQ4RadioGroup"
@@ -174,46 +290,84 @@
                     android:layout_height="wrap_content">
 
                     <RadioButton
-                        android:id="@+id/uiucQ4Wrong1"
+                        android:id="@+id/uiucQ4Correct"
+                        android:text="#5"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="#8" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/uiucQ4Wrong1"
+                        android:text="#10"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/uiucQ4Wrong2"
+                        android:text="#25"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="#72" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
 
-                    <RadioButton
-                        android:id="@+id/uiucQ4Correct"
+                    <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="#48" />
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/uiucQ4Wrong3"
+                        android:text="#8"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="#23" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
                 </RadioGroup>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
+                android:layout_height="130dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
                 android:orientation="vertical">
 
                 <Button
                     android:id="@+id/uiucSubmit"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:backgroundTint="@color/orangeColor"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
                     android:text="Submit" />
 
                 <Button
                     android:id="@+id/uiucBack"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:backgroundTint="@color/orangeColor"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
                     android:text="Back" />
             </LinearLayout>
 

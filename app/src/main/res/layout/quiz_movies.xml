@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/quiz_background">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -13,30 +14,46 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="46dp">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Movie Trivia" />
+                android:text="Movies Trivia!"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="@color/orangeColor"
+                android:textSize="45sp"/>
 
             <TextView
-                android:id="@+id/textView2"
+                android:text="How well do you know cinema?"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="How well do you know movies?" />
+                android:layout_height="45dp"
+                android:textColor="@color/orangeColor"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textSize="23sp"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="245dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:text="1. What is the top grossing movie of all time adjusted for inflation?"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="1. What is the top grossing movie of all time adjusted for inflation?" />
+                    android:layout_height="45dp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
 
                 <RadioGroup
                     android:id="@+id/moviesQ1RadioGroup"
@@ -45,27 +62,55 @@
 
                     <RadioButton
                         android:id="@+id/moviesQ1Wrong1"
+                        android:text="Avengers End Game"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Avengers End Game" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/moviesQ1Wrong2"
+                        android:text="Avatar"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Avatar" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
 
-                    <RadioButton
-                        android:id="@+id/moviesQ1Correct"
+                    <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Gone with the Wind" />
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/moviesQ1Wrong3"
+                        android:text="Titanic"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Titanic" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/moviesQ1Correct"
+                        android:text="Gone with the Wind"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
 
                 </RadioGroup>
 
@@ -73,14 +118,19 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="255dp"
+                android:paddingTop="10dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView4"
+                    android:text="2. What is the top grossing movie of all time NOT adjusted for inflation?"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="2. What is the top grossing movie of all time NOT adjusted for inflation?" />
+                    android:layout_height="45dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
 
                 <RadioGroup
                     android:id="@+id/moviesQ2RadioGroup"
@@ -88,42 +138,75 @@
                     android:layout_height="wrap_content">
 
                     <RadioButton
-                        android:id="@+id/moviesQ2Wrong1"
+                        android:id="@+id/moviesQ2Correct"
+                        android:text="Avengers End Game"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Avatar" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
-                        android:id="@+id/moviesQ2Correct"
+                        android:id="@+id/moviesQ2Wrong1"
+                        android:text="Avatar"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Avengers End Game" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/moviesQ2Wrong2"
+                        android:text="Titanic"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Star Wars" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/moviesQ2Wrong3"
+                        android:text="Gone with the Wind"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Gone with the Wind" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
 
                 </RadioGroup>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="245dp"
+                android:paddingTop="10dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView6"
+                    android:text="3. In The Matrix, which pill does NEO take?"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="3. In the Matrix, does Neo take the red pill or the blue pill?" />
+                    android:layout_height="35dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
 
                 <RadioGroup
                     android:id="@+id/moviesQ3RadioGroup"
@@ -132,29 +215,74 @@
 
                     <RadioButton
                         android:id="@+id/moviesQ3Correct"
+                        android:text="Red"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Red" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/moviesQ3Wrong1"
+                        android:text="Blue"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Blue" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/moviesQ3Wrong2"
+                        android:text="Both"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/moviesQ3Wrong3"
+                        android:text="Neither"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
 
                 </RadioGroup>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="250dp"
+                android:paddingTop="10dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView7"
+                    android:text="4. What was the first movie in color?"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="4. What was the first movie in color?" />
+                    android:textStyle="bold"
+                    android:layout_height="35dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
 
                 <RadioGroup
                     android:id="@+id/moviesQ4RadioGroup"
@@ -163,45 +291,83 @@
 
                     <RadioButton
                         android:id="@+id/moviesQ4Wrong1"
+                        android:text="Wizard of Oz"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Wizard of Oz" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/moviesQ4Correct"
+                        android:text="Cupid Angling"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Cupid Angling" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/moviesQ4Wrong2"
+                        android:text="The Gulf Between"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="The Gulf Between" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/moviesQ4Wrong3"
+                        android:text="The Jazz Singer"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="The Jazz Singer" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
                 </RadioGroup>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
+                android:layout_height="130dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
                 android:orientation="vertical">
 
                 <Button
                     android:id="@+id/moviesSubmit"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:backgroundTint="@color/orangeColor"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
                     android:text="Submit" />
 
                 <Button
                     android:id="@+id/moviesBack"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:backgroundTint="@color/orangeColor"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
                     android:text="Back" />
             </LinearLayout>
 
