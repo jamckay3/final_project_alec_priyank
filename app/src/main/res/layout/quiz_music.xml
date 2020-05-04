@@ -36,7 +36,7 @@
                     android:id="@+id/textView3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="1. q1" />
+                    android:text="1. According to Billboard, who is the current #1 artist?" />
 
                 <RadioGroup
                     android:id="@+id/musicQ1RadioGroup"
@@ -44,28 +44,28 @@
                     android:layout_height="wrap_content">
 
                     <RadioButton
-                        android:id="@+id/musicQ1"
+                        android:id="@+id/musicQ1Correct"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Africa" />
+                        android:text="DaBaby" />
 
                     <RadioButton
-                        android:id="@+id/radioButton6"
+                        android:id="@+id/musicQ1Wrong1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Asia" />
+                        android:text="Billie Eilish" />
 
                     <RadioButton
-                        android:id="@+id/foodQ1RadioButton"
+                        android:id="@+id/musicQ1Wrong2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Australia" />
+                        android:text="BTS" />
 
                     <RadioButton
-                        android:id="@+id/radioButton"
+                        android:id="@+id/musicQ1Wrong3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Antarctica" />
+                        android:text="Drake" />
 
                 </RadioGroup>
 
@@ -80,7 +80,7 @@
                     android:id="@+id/textView4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="2. q2" />
+                    android:text="2. According to Billboard, which artist held the #1 spot for the longest time?" />
 
                 <RadioGroup
                     android:id="@+id/musicQ2RadioGroup"
@@ -88,28 +88,28 @@
                     android:layout_height="wrap_content">
 
                     <RadioButton
-                        android:id="@+id/radioButton9"
+                        android:id="@+id/musicQ2Correct"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Alaska" />
+                        android:text="Beyonce" />
 
                     <RadioButton
-                        android:id="@+id/uiucQ2RadioButton"
+                        android:id="@+id/musicQ2Wrong1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="California" />
+                        android:text="BTS" />
 
                     <RadioButton
-                        android:id="@+id/radioButton3"
+                        android:id="@+id/musicQ2Wrong2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Florida" />
+                        android:text="Justin Bieber" />
 
                     <RadioButton
-                        android:id="@+id/sportQ2RadioButton"
+                        android:id="@+id/musicQ2Wrong3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Texas" />
+                        android:text="Rihanna" />
 
                 </RadioGroup>
             </LinearLayout>
@@ -123,7 +123,7 @@
                     android:id="@+id/textView6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="3. q3" />
+                    android:text="3. According to Billboard, what is the #1 song right now?" />
 
                 <RadioGroup
                     android:id="@+id/musicQ3RadioGroup"
@@ -131,25 +131,25 @@
                     android:layout_height="match_parent">
 
                     <RadioButton
-                        android:id="@+id/radioButton17"
+                        android:id="@+id/musicQ3Wrong1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="England" />
 
                     <RadioButton
-                        android:id="@+id/sportQ4RadioButton"
+                        android:id="@+id/musicQ3Wrong2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="France" />
 
                     <RadioButton
-                        android:id="@+id/musicQ3"
+                        android:id="@+id/musicQ3Wrong3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Germany" />
 
                     <RadioButton
-                        android:id="@+id/radioButton8"
+                        android:id="@+id/musicQ3Correct"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Italy" />
@@ -166,7 +166,7 @@
                     android:id="@+id/textView7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="4. q4" />
+                    android:text="4. According to Billboard, what is the #10 song right now?" />
 
                 <RadioGroup
                     android:id="@+id/musicQ4RadioGroup"
@@ -174,25 +174,25 @@
                     android:layout_height="wrap_content">
 
                     <RadioButton
-                        android:id="@+id/sportQ1RadioButton"
+                        android:id="@+id/musicQ4Wrong1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Hong Kong" />
 
                     <RadioButton
-                        android:id="@+id/radioButton900"
+                        android:id="@+id/musicQ4Wrong2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="New York" />
 
                     <RadioButton
-                        android:id="@+id/uiucQ4RadioButton"
+                        android:id="@+id/musicQ4Correct"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Delhi" />
 
                     <RadioButton
-                        android:id="@+id/radioButton25"
+                        android:id="@+id/musicQ4Wrong3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Tokyo" />
