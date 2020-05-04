@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/quiz_background">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -12,72 +13,124 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="46dp">
 
             <TextView
-                android:id="@+id/sportQuizTitle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Sports Trivia" />
-
-            <TextView
-                android:id="@+id/textView2"
+                android:text="Sports Trivia!"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="How well do you know sports?" />
+                android:layout_height="55dp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="@color/orangeColor"
+                android:textSize="45sp"/>
+
+            <TextView
+                android:text="Are you a true athlete?"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:textColor="@color/orangeColor"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textSize="23sp"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="245dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView7"
+                    android:text="1. According to the FIFA rulebook, how long can a goalkeeper hold the ball?"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="1. According to the official FIFA rulebook, how long can a goalkeeper hold the ball?" />
+                    android:layout_height="45dp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
 
                 <RadioGroup
                     android:id="@+id/sportQ1RadioGroup"
                     android:layout_width="match_parent"
-                    android:layout_height="142dp">
+                    android:layout_height="wrap_content">
 
                     <RadioButton
                         android:id="@+id/sportQ1Correct"
+                        android:text="6 seconds"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="6 seconds" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/sportQ1Wrong1"
+                        android:text="8 seconds"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="8 seconds" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/sportQ1Wrong2"
+                        android:text="10 seconds"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="10 seconds" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/sportQ1Wrong3"
+                        android:text="12 seconds"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="12 seconds" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
                 </RadioGroup>
+
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="255dp"
+                android:paddingTop="10dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView4"
+                    android:text="2. Who is the most decorated Olympic Athlete ever?"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="2. Who is the most succesful athlete to ever compete in the Olympics (by medals)?" />
+                    android:layout_height="45dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
 
                 <RadioGroup
                     android:id="@+id/sportQ2RadioGroup"
@@ -86,135 +139,238 @@
 
                     <RadioButton
                         android:id="@+id/sportQ2Wrong1"
+                        android:text="Usain Bolt"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Usain Bolt" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/sportQ2Wrong2"
+                        android:text="Paavo Nurmi"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Paavo Nurmi" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/sportQ2Wrong3"
+                        android:text="Mark Spitz"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Mark Spitz" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/sportQ2Correct"
+                        android:text="Michael Phelps"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Michael Phelps" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
 
                 </RadioGroup>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="245dp"
+                android:paddingTop="10dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:text="3. How heavy is a regulation baseball?"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="3. How heavy is a baseball?" />
+                    android:layout_height="35dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
 
                 <RadioGroup
                     android:id="@+id/sportQ3RadioGroup"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="match_parent">
 
                     <RadioButton
                         android:id="@+id/sportQ3Correct"
+                        android:text="145g"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="145g" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/sportQ3Wrong1"
+                        android:text="215g"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="200g" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/sportQ3Wrong2"
+                        android:text="400g"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="400g" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/sportQ3Wrong3"
+                        android:text="50g"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="50g" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
 
                 </RadioGroup>
-
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="260dp"
+                android:paddingTop="10dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView6"
+                    android:text="4. Who was the first NBA player to be a unanimous league mvp?"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="4. Who was the first player in NBA history to be elected league MVP by a unanimous vote?" />
+                    android:textStyle="bold"
+                    android:layout_height="45dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
 
                 <RadioGroup
                     android:id="@+id/sportQ4RadioGroup"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="wrap_content">
 
                     <RadioButton
                         android:id="@+id/sportQ4Wrong1"
+                        android:text="Kareem Abdul-Jabbar"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Kareem Abdul-Jabbar" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/sportQ4Correct"
+                        android:text="Stephen Curry"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Stephen Curry" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/sportQ4Wrong2"
+                        android:text="Lebron James"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Lebron James" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/sportQ4Wrong3"
+                        android:text="Michael Jordan"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Michael Jordan" />
-
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
                 </RadioGroup>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
+                android:layout_height="130dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
                 android:orientation="vertical">
 
                 <Button
                     android:id="@+id/sportSubmit"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:backgroundTint="@color/orangeColor"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
                     android:text="Submit" />
 
                 <Button
                     android:id="@+id/sportBack"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:backgroundTint="@color/orangeColor"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
                     android:text="Back" />
             </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 

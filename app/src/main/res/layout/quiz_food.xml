@@ -28,13 +28,12 @@
                 android:textAllCaps="true"
                 android:textStyle="bold"
                 android:textColor="@color/orangeColor"
-                android:textSize="40sp" />
+                android:textSize="45sp"/>
 
             <TextView
-                android:id="@+id/textView2"
                 android:text="How well do you know food?"
                 android:layout_width="match_parent"
-                android:layout_height="55dp"
+                android:layout_height="45dp"
                 android:textColor="@color/orangeColor"
                 android:textStyle="bold"
                 android:textAllCaps="true"
@@ -43,11 +42,10 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="230dp"
+                android:layout_height="245dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView3"
                     android:text="1. What is the most common food \n allergy?"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
@@ -72,6 +70,10 @@
                         android:background="@drawable/quiz_answer_button"
                         android:textSize="20sp"/>
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
+
                     <RadioButton
                         android:id="@+id/foodQ1Wrong2"
                         android:text="Shellfish"
@@ -82,6 +84,10 @@
                         android:background="@drawable/quiz_answer_button"
                         android:textSize="20sp"/>
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
+
                     <RadioButton
                         android:id="@+id/foodQ1Correct"
                         android:text="Peanuts"
@@ -91,6 +97,10 @@
                         android:layout_height="45dp"
                         android:background="@drawable/quiz_answer_button"
                         android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/foodQ1Wrong3"
@@ -108,12 +118,11 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="230dp"
+                android:layout_height="245dp"
                 android:paddingTop="10dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView4"
                     android:text="2. What is the national food of Mexico?"
                     android:layout_width="match_parent"
                     android:layout_height="35dp"
@@ -138,6 +147,10 @@
                         android:background="@drawable/quiz_answer_button"
                         android:textSize="20sp"/>
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
+
                     <RadioButton
                         android:id="@+id/foodQ2Wrong2"
                         android:text="Fajita"
@@ -148,6 +161,10 @@
                         android:background="@drawable/quiz_answer_button"
                         android:textSize="20sp"/>
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
+
                     <RadioButton
                         android:id="@+id/foodQ2Correct"
                         android:text="Mole"
@@ -157,6 +174,10 @@
                         android:layout_height="45dp"
                         android:background="@drawable/quiz_answer_button"
                         android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/foodQ2Wrong3"
@@ -173,12 +194,11 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="230dp"
+                android:layout_height="245dp"
                 android:paddingTop="10dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView6"
                     android:text="3. What is the national food of France?"
                     android:layout_width="match_parent"
                     android:layout_height="35dp"
@@ -203,6 +223,10 @@
                         android:background="@drawable/quiz_answer_button"
                         android:textSize="20sp"/>
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
+
                     <RadioButton
                         android:id="@+id/foodQ3Wrong2"
                         android:text="White flags"
@@ -213,6 +237,10 @@
                         android:background="@drawable/quiz_answer_button"
                         android:textSize="20sp"/>
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
+
                     <RadioButton
                         android:id="@+id/foodQ3Correct"
                         android:text="Pot-au-Feu"
@@ -222,6 +250,10 @@
                         android:layout_height="45dp"
                         android:background="@drawable/quiz_answer_button"
                         android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/foodQ3Wrong3"
@@ -238,12 +270,11 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
+                android:layout_height="260dp"
                 android:paddingTop="10dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView7"
                     android:text="4. What is the only US state that grows coffee beans?"
                     android:layout_width="match_parent"
                     android:textStyle="bold"
@@ -268,6 +299,10 @@
                         android:background="@drawable/quiz_answer_button"
                         android:textSize="20sp"/>
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
+
                     <RadioButton
                         android:id="@+id/foodQ4Correct"
                         android:text="Hawaii"
@@ -278,6 +313,10 @@
                         android:background="@drawable/quiz_answer_button"
                         android:textSize="20sp"/>
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
+
                     <RadioButton
                         android:id="@+id/foodQ4Wrong2"
                         android:text="Idaho"
@@ -287,6 +326,10 @@
                         android:layout_height="45dp"
                         android:background="@drawable/quiz_answer_button"
                         android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/foodQ4Wrong3"
@@ -303,7 +346,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="130dp"
-                android:paddingTop="20dp"
+                android:paddingTop="15dp"
                 android:paddingBottom="15dp"
                 android:orientation="vertical">
 
