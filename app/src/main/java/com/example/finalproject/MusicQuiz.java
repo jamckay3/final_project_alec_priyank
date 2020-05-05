@@ -47,7 +47,6 @@ public class MusicQuiz extends AppCompatActivity {
         JsoupMusic tmp = new JsoupMusic();
 
         //get ranked songs from Billboard
-        try {
             q3Wrong1RadioButton.setText(tmp.getSong(3));
             q3Wrong2RadioButton.setText(tmp.getSong(6));
             q3Wrong3RadioButton.setText(tmp.getSong(7));
@@ -57,11 +56,7 @@ public class MusicQuiz extends AppCompatActivity {
             q4Wrong2RadioButton.setText(tmp.getSong(5));
             q4Wrong3RadioButton.setText(tmp.getSong(8));
             q4CorrectRadioButton.setText(tmp.getSong(2));
-        } catch (Exception e) {
-            Intent intent = new Intent(MusicQuiz.this, ErrorPage.class);
-            startActivity(intent);
-            finish();
-        }
+
 
         final Button backButton = findViewById(R.id.musicBack);
         backButton.setOnClickListener(new View.OnClickListener() {

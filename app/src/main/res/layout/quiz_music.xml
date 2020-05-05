@@ -271,14 +271,14 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:text="3. According to Billboard, what is the #2 song right now?"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
-                    android:textStyle="bold"
+                    android:text="4. According to Billboard, what is the #2 song right now?"
                     android:textAlignment="center"
                     android:textAllCaps="true"
                     android:textColor="@color/white"
-                    android:textSize="16sp"/>
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
 
                 <RadioGroup
                     android:id="@+id/musicQ4RadioGroup"
