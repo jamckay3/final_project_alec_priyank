@@ -56,6 +56,7 @@ public class JsoupMusic extends AppCompatActivity {
                 } catch (Exception e) {
                     e.printStackTrace();
                     System.out.println("yoyoyoy i wrote a rap");
+
                 }
 
                 runOnUiThread(new Runnable() {
