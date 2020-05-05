@@ -55,6 +55,9 @@ public class MusicQuiz extends AppCompatActivity {
             q4CorrectRadioButton.setText(JsoupMusic.getSong(2));
         } catch (Exception e) {
             thrown = true;
+            Intent intent = new Intent(MusicQuiz.this, ErrorPage.class);
+            startActivity(intent);
+            finish();
         }
         // why did you do this
         if (!thrown) {
