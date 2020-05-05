@@ -24,7 +24,8 @@
         <activity android:name=".MathQuiz"></activity>
         <activity android:name=".MoviesQuiz"></activity>
         <activity android:name=".FoodQuiz"></activity>
-        <activity android:name=".QuizScore" />
+        <activity android:name=".QuizScore"></activity>
+        <activity android:name=".ErrorPage"></activity>
     </application>
 
 </manifest>

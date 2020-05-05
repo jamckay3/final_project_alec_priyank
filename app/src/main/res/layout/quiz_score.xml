@@ -1,52 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/quiz_background">
 
-    <TableRow
+    <TextView
+        android:text="YOU HAVE JUST COMPLETED:"
         android:layout_width="match_parent"
-        android:layout_height="81dp">
+        android:layout_height="130dp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/offWhite"
+        android:textAlignment="center"
+        android:textSize="50sp"/>
 
-        <TextView
-            android:id="@+id/currentQuizText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="ahhh" />
-
-        <TextView
-            android:id="@+id/resString"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=" Quiz Results!" />
-
-    </TableRow>
-
-    <TableRow
+    <TextView
+        android:id="@+id/quizTypeText"
         android:layout_width="match_parent"
-        android:layout_height="207dp">
+        android:textSize="50sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="@color/orangeColor"
+        android:textAlignment="center"
+        android:layout_height="130dp" />
 
-        <TextView
-            android:id="@+id/yourScoreString"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Your Score: " />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="@color/offWhite"
+        android:textAlignment="center"
+        android:text="Your Score: " />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
 
         <TextView
             android:id="@+id/quizScoreText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:textSize="50sp"
+            android:textColor="@color/offWhite"
+            android:textStyle="bold"
+            android:layout_gravity="end"
+            android:textAlignment="viewEnd"/>
 
         <TextView
-            android:id="@+id/textView11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=" / 4" />
-    </TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" / 4"
+            android:textColor="@color/offWhite"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:layout_gravity="start"
+            android:textAlignment="viewStart"/>
+    </LinearLayout>
 
     <Button
         android:id="@+id/homePageButton"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="30sp"
+        android:backgroundTint="@color/orangeColor"
+        android:textColor="@color/white"
+        android:textStyle="bold"
         android:text="Return to Home Page" />
 </LinearLayout>

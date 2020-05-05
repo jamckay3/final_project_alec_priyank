@@ -56,7 +56,7 @@ public class MusicQuiz extends AppCompatActivity {
         } catch (Exception e) {
             thrown = true;
         }
-
+        // why did you do this
         if (!thrown) {
             q3Wrong1RadioButton.setText(JsoupMusic.getSong(3));
             q3Wrong2RadioButton.setText(JsoupMusic.getSong(6));

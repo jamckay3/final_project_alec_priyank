@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/quiz_background">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -13,30 +14,46 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="46dp">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Music Trivia" />
+                android:text="Music Trivia!"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="@color/orangeColor"
+                android:textSize="45sp"/>
 
             <TextView
-                android:id="@+id/textView2"
+                android:text="This is a live updating trivia!"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="How well do you know music?" />
+                android:layout_height="45dp"
+                android:textColor="@color/orangeColor"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textSize="23sp"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="245dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:text="1. According to Billboard, who is the current top artist?"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="1. According to Billboard, who is the current #1 artist?" />
+                    android:layout_height="45dp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
 
                 <RadioGroup
                     android:id="@+id/musicQ1RadioGroup"
@@ -45,27 +62,55 @@
 
                     <RadioButton
                         android:id="@+id/musicQ1Correct"
+                        android:text="Dababy"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="DaBaby" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/musicQ1Wrong1"
+                        android:text="Billie Eilish"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Billie Eilish" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/musicQ1Wrong2"
+                        android:text="BTS"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="BTS" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/musicQ1Wrong3"
+                        android:text="Drake"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Drake" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
 
                 </RadioGroup>
 
@@ -73,14 +118,19 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="255dp"
+                android:paddingTop="10dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView4"
+                    android:text="2. Which artist held the #1 spot for the longest time?"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="2. According to Billboard, which artist held the #1 spot for the longest time?" />
+                    android:layout_height="45dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
 
                 <RadioGroup
                     android:id="@+id/musicQ2RadioGroup"
@@ -88,42 +138,75 @@
                     android:layout_height="wrap_content">
 
                     <RadioButton
-                        android:id="@+id/musicQ2Correct"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Beyonce" />
-
-                    <RadioButton
                         android:id="@+id/musicQ2Wrong1"
+                        android:text="Beyonce"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="BTS" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/musicQ2Wrong2"
+                        android:text="BTS"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Justin Bieber" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/musicQ2Correct"
+                        android:text="Justin Beiber"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/musicQ2Wrong3"
+                        android:text="Rihanna"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Rihanna" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
 
                 </RadioGroup>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="255dp"
+                android:paddingTop="10dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView6"
+                    android:text="3. According to Billboard, what is the #1 song right now?"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="3. According to Billboard, what is the #1 song right now?" />
+                    android:layout_height="45dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
 
                 <RadioGroup
                     android:id="@+id/musicQ3RadioGroup"
@@ -132,88 +215,152 @@
 
                     <RadioButton
                         android:id="@+id/musicQ3Wrong1"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="England" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/musicQ3Wrong2"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="France" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
 
-                    <RadioButton
-                        android:id="@+id/musicQ3Wrong3"
+                    <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Germany" />
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/musicQ3Correct"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Italy" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/musicQ3Wrong3"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
 
                 </RadioGroup>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="255dp"
+                android:paddingTop="10dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView7"
+                    android:text="3. According to Billboard, what is the #2 song right now?"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="4. According to Billboard, what is the #10 song right now?" />
+                    android:layout_height="45dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
 
                 <RadioGroup
                     android:id="@+id/musicQ4RadioGroup"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="match_parent">
 
                     <RadioButton
                         android:id="@+id/musicQ4Wrong1"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Hong Kong" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/musicQ4Wrong2"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="New York" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/musicQ4Correct"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Delhi" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"/>
 
                     <RadioButton
                         android:id="@+id/musicQ4Wrong3"
+                        android:textStyle="bold"
+                        android:textColor="@color/background_black"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Tokyo" />
+                        android:layout_height="45dp"
+                        android:background="@drawable/quiz_answer_button"
+                        android:textSize="20sp"/>
+
                 </RadioGroup>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
+                android:layout_height="130dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
                 android:orientation="vertical">
 
                 <Button
                     android:id="@+id/musicSubmit"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:backgroundTint="@color/orangeColor"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
                     android:text="Submit" />
 
                 <Button
                     android:id="@+id/musicBack"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:backgroundTint="@color/orangeColor"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
                     android:text="Back" />
             </LinearLayout>
 
