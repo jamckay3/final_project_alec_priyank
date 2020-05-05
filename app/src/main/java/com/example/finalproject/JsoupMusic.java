@@ -1,16 +1,11 @@
 package com.example.finalproject;
 
-import android.content.Intent;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-
-
-import java.io.IOException;
 
 public class JsoupMusic extends AppCompatActivity {
 
@@ -53,6 +48,9 @@ public class JsoupMusic extends AppCompatActivity {
                     String songName = spanNested.ownText();
 
                     songNameBaby = songName;
+
+
+
                 } catch (Exception e) {
                     e.printStackTrace();
                     System.out.println("yoyoyoy i wrote a rap");
