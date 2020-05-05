@@ -59,18 +59,7 @@ public class MusicQuiz extends AppCompatActivity {
             startActivity(intent);
             finish();
         }
-        // why did you do this
-        if (!thrown) {
-            q3Wrong1RadioButton.setText(JsoupMusic.getSong(3));
-            q3Wrong2RadioButton.setText(JsoupMusic.getSong(6));
-            q3Wrong3RadioButton.setText(JsoupMusic.getSong(7));
-            q3CorrectRadioButton.setText(JsoupMusic.getSong(1));
 
-            q4Wrong1RadioButton.setText(JsoupMusic.getSong(4));
-            q4Wrong2RadioButton.setText(JsoupMusic.getSong(5));
-            q4Wrong3RadioButton.setText(JsoupMusic.getSong(8));
-            q4CorrectRadioButton.setText(JsoupMusic.getSong(2));
-        }
         final Button backButton = findViewById(R.id.musicBack);
         backButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
