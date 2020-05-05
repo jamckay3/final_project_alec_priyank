@@ -60,7 +60,7 @@ public class UiucQuiz extends AppCompatActivity {
                     score++;
                 }
                 QuizScore.setQuizScore(score);
-                QuizScore.setCurrentQuiz("Science");
+                QuizScore.setCurrentQuiz("UIUC Quiz!");
                 // now i set the quizScore var to the current score
                 Intent intent = new Intent(UiucQuiz.this, QuizScore.class);
                 startActivity(intent);

@@ -59,7 +59,7 @@ public class FoodQuiz extends AppCompatActivity {
                     score++;
                 }
                 QuizScore.setQuizScore(score);
-                QuizScore.setCurrentQuiz("Food");
+                QuizScore.setCurrentQuiz("Food Quiz!");
                 // now i set the quizScore var to the current score
                 Intent intent = new Intent(FoodQuiz.this, QuizScore.class);
                 startActivity(intent);

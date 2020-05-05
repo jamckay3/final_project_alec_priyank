@@ -33,7 +33,7 @@ public class MusicQuiz extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.quiz_music);
 
-        boolean thrown = false;
+        //boolean thrown = false;
         q3Wrong1RadioButton = findViewById(R.id.musicQ3Wrong1);
         q3Wrong2RadioButton = findViewById(R.id.musicQ3Wrong2);
         q3Wrong3RadioButton = findViewById(R.id.musicQ3Wrong3);
@@ -43,6 +43,8 @@ public class MusicQuiz extends AppCompatActivity {
         q4Wrong2RadioButton = findViewById(R.id.musicQ4Wrong2);
         q4Wrong3RadioButton = findViewById(R.id.musicQ4Wrong3);
         q4CorrectRadioButton = findViewById(R.id.musicQ4Correct);
+
+        //get ranked songs from Billboard
         try {
             q3Wrong1RadioButton.setText(JsoupMusic.getSong(3));
             q3Wrong2RadioButton.setText(JsoupMusic.getSong(6));
@@ -99,7 +101,7 @@ public class MusicQuiz extends AppCompatActivity {
                     score++;
                 }
                 QuizScore.setQuizScore(score);
-                QuizScore.setCurrentQuiz("Music");
+                QuizScore.setCurrentQuiz("Music Quiz!");
                 // now i set the quizScore var to the current score
                 Intent intent = new Intent(MusicQuiz.this, QuizScore.class);
                 startActivity(intent);

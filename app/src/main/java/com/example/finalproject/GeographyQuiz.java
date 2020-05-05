@@ -59,7 +59,7 @@ public class GeographyQuiz extends AppCompatActivity {
                     score++;
                 }
                 QuizScore.setQuizScore(score);
-                QuizScore.setCurrentQuiz("Geography");
+                QuizScore.setCurrentQuiz("Geography Score!");
                 // now i set the quizScore var to the current score
                 Intent intent = new Intent(GeographyQuiz.this, QuizScore.class);
                 startActivity(intent);

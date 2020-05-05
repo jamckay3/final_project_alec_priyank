@@ -24,11 +24,12 @@ public class QuizScore extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.quiz_score);
-
-        TextView textView = findViewById(R.id.quizTypeText);
-        textView.setText(currentQuiz);
-        TextView textView1 = findViewById(R.id.quizScoreText);
-        textView1.setText((Integer.toString(quizScore)));
+        //setting the quiz type in UI
+        TextView quizType = findViewById(R.id.quizTypeText);
+        quizType.setText(currentQuiz);
+        //setting the score in UI
+        TextView scoreValue = findViewById(R.id.quizScoreText);
+        scoreValue.setText((Integer.toString(quizScore)));
 
         final Button homeButton = findViewById(R.id.homePageButton);
         homeButton.setOnClickListener(new View.OnClickListener() {
