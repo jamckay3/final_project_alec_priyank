@@ -50,12 +50,12 @@ public class MusicQuiz extends AppCompatActivity {
             q3Wrong1RadioButton.setText(tmp.getSong(3));
             q3Wrong2RadioButton.setText(tmp.getSong(6));
             q3Wrong3RadioButton.setText(tmp.getSong(7));
-            q3CorrectRadioButton.setText(tmp.getSong(1));
-
+            q3CorrectRadioButton.setText(tmp.getSong(0));
+            System.out.println("HENOESHOE" + tmp.getSong(0));
             q4Wrong1RadioButton.setText(tmp.getSong(4));
             q4Wrong2RadioButton.setText(tmp.getSong(5));
             q4Wrong3RadioButton.setText(tmp.getSong(8));
-            q4CorrectRadioButton.setText(tmp.getSong(2));
+            q4CorrectRadioButton.setText(tmp.getSong(1));
 
 
         final Button backButton = findViewById(R.id.musicBack);

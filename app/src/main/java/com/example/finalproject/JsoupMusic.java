@@ -54,7 +54,8 @@ public class JsoupMusic extends AppCompatActivity {
 
                     songNameBaby = songName;
                 } catch (Exception e) {
-                    System.out.println("uh oh");
+                    e.printStackTrace();
+                    System.out.println("yoyoyoy i wrote a rap");
                 }
 
                 runOnUiThread(new Runnable() {
@@ -64,6 +65,7 @@ public class JsoupMusic extends AppCompatActivity {
                 });
             }
         }).start();
+        System.out.println("Song name baby " + songNameBaby);
         return songNameBaby;
     }
 }
